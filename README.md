@@ -1,9 +1,18 @@
+### `O QUE É`
+
+<h1 align="center">
+    <sub>
+        <img src="https://create-react-app.dev/img/logo.svg" height="40" width="40">
+    </sub>
+    Youtube-React
+</h1>
+
 Um Frontend do youtube com as partes mais essênciais numa só página
 A Ideía é fazer um frontend que acesse uma API extarna e anônima que busque dados do youtube
 e entregue uma experiência similar ao youtube porém com anonimato.
 
 
-To-Do:
+### `To-Do`
 <!-- ✓ Nada -->
 𐄂 Pesquisa
 𐄂 Vizualização Anônima
@@ -17,7 +26,7 @@ To-Do:
 𐄂 Tradução
 
 
-Irei usar a API do Indivious por não necessitar servidor próprio.
+Por hora irei usar a API do Indivious por não necessitar servidor
 https://docs.invidious.io/authenticated-endpoints/
 
 Fazer em algum momento o backend usando:
@@ -29,18 +38,17 @@ e torna-lo retrocompativel com a do Indivious, pondendo selecionar qual usar no 
 é possível se basear no [ViewTube](https://github.com/ViewTube/viewtube-vue) para isso.
 
 
+
 ### `npm start`
 
 Runs the app in the development mode.
-Open [http://localhost:3000]
+Open (http://localhost:3000)[http://localhost:3000]
 
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-See [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### [DEPLOY](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Making a Progressive Web App
-
-[PWA - progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### [PWA - Progressive Web App](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
