@@ -9,13 +9,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <label>ReacTube</label>
+        <label>Youtube-React</label>
         <Search/>
       </header>
       <main>
         <MainVideoPage/>
       </main>
-      <footer className="footer" >
+      <footer className="footer">
         Código escrito por Bernardo Carvalho - kregimor@gmail.com
       </footer>
     </div>
