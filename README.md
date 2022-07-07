@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+Um Frontend do youtube com as partes mais essênciais numa só página
+A Ideía é fazer um frontend que acesse uma API extarna e anônima que busque dados do youtube
+e entregue uma experiência similar ao youtube porém com anonimato.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+To-Do:
+<!-- ✓ Nada -->
+𐄂 Pesquisa
+𐄂 Vizualização Anônima
+𐄂 Videos Recomendados
+𐄂 Playlist Local
+𐄂 Playlist remota
+𐄂 Adicionar/Remover Playlists
+𐄂 Comentários
+𐄂 Descrição
+𐄂 Design responsivo para uso adequado em PWA
+𐄂 Tradução
 
-In the project directory, you can run:
+
+Irei usar a API do Indivious por não necessitar servidor próprio.
+https://docs.invidious.io/authenticated-endpoints/
+
+Fazer em algum momento o backend usando:
+    - [node-ytdl-core](https://github.com/fent/node-ytdl-core)
+    - [node-ytsr](https://github.com/TimeForANinja/node-ytsr)
+    - [node-ytpl](https://github.com/TimeForANinja/node-ytpl)
+    - [yt-comment-scraper ](https://github.com/FreeTubeApp/yt-comment-scraper)
+e torna-lo retrocompativel com a do Indivious, pondendo selecionar qual usar no pŕoprio front end
+é possível se basear no [ViewTube](https://github.com/ViewTube/viewtube-vue) para isso.
+
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Runs the app in the development mode.
+Open [http://localhost:3000]
 
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+See [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[PWA - progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
